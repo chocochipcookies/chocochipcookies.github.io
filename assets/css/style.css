@@ -1,0 +1,285 @@
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:black; }
+
+.sidebar-container {
+	position: fixed;
+	width: 240px;
+	background-color: 			#708090;
+	height: 100%;
+	-webkit-transform: translateX(-240px);
+	-webkit-transition: all 0.3s;
+}
+
+.sidebar-item {
+	font-weight: 200%;
+	font-size: 30px;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+
+#nav-toggle {
+	position: absolute;
+	left: 50%; top: 50%;
+  color: 	#778899;
+}
+
+#nav-toggle {
+	padding: 10px 30px 15px 0px;
+  color: 	#778899;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+	height: 3px;
+	width: 30px;
+	background: #fff;
+	position: absolute;
+	display: block;
+	content: '';
+  color: 	#778899;
+}
+
+#nav-toggle span:before {
+	top: -10px;
+  color: 	#778899;
+}
+
+#nav-toggle span:after {
+	bottom: -10px;
+  color: 	#778899;
+}
+
+/* FREEBIES */
+
+/* Styling the Sidebar Button */
+#sidebar-button {
+	position: fixed;
+	z-index: 100;
+	left: 15px;
+	top: 15px;
+	cursor: pointer;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+  background-color: 	#778899;
+}
+
+/* Overriding default styles on the ul */
+.sidebar-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 10px;
+}
+
+.page-wrapper {
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+
+
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-width: 960px;
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Georgia;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.img-scaled {
+	width: 100%;
+	height: 100%;
+}
+
+.img-scaled-wh {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.home-bar {
+  position: fixed;
+	width: 100%;
+}
+
+
+
+
+
+
+.carousel-container {
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+  z-index: 50;
+}
+
+#carousel {
+	width: 4800px;
+	margin-left: 0px;
+	-webkit-transition: all 0.3s;
+	height: 100%;
+
+}
+
+.carousel-item {
+	width: 960px;
+	position: relative;
+	height: 100%;
+	float: left;
+}
+
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+
+/* Styling for the quotes and text in each section */
+.quote, .text {
+	position: absolute;
+	font-size: 46px;
+	color: white;
+	font-weight: 700;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+   	transform: translateX(-50%) translateY(-50%);
+}
+
+.other-text{
+
+  position: absolute;
+	font-size: 46px;
+	color: black;
+	font-weight: 500;
+    top: 7%;
+    left: 36%;
+    padding-right: 40px;
+
+}
+#part1 {
+	width: 100%;
+	height:500px;
+	position:relative;
+}
+
+#part2 {
+	width: 100%;
+	height:550px;
+	position:relative;
+  background-color:#B0BEC5;
+  border-bottom: 1px dashed black;
+}
+
+
+#part3 {
+	width: 100%;
+	height:550px;
+	position:relative;
+  background-color: #c9d7e8	;
+}
+
+#background-pic {
+  position: absolute;
+  opacity:.65;
+  z-index: -1;
+}
+
+#contact-info {
+  position: relative;
+  color: black;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  border-top: 3px solid black;
+  border-bottom: 1px dashed black;
+  background-color:#f0f8ff;
+
+}
+
+#item {
+  position: relative;
+  display: inline-block;
+  padding-left:9%;
+  padding-right: 7%;
+}
+
+#profile {
+  position: relative;
+  z-index: 30;
+  padding-left: 50px;
+  padding-top:50px;
+}
+
+#dog{
+	position: relative;
+	padding-top:450px;
+}
+.dog-item {
+	display: inline-block;
+  padding-left:10%;
+  padding-right: 10%;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+.wrapper-active, .button-active {
+	-webkit-transform: translateX(240px);
+	-moz-transform: translateX(240px);
+	transform: translateX(240px);
+}
+
+.sidebar-active {
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+}
